@@ -1,0 +1,38 @@
+\selectlanguage{brazil}
+	
+\begin{frontmatter}
+    
+    % Title, preferably not more than 10 words.
+    %\title{Implementação de um Arranjo Cliente Servidor para um Robô Industrial com Controladora Aberta}
+    \title{Arranjo Cliente Servidor para um Robô Industrial com Controladora Aberta}  
+    
+    %\thanks[footnoteinfo]{Reconhecimento do suporte financeiro deve vir nesta nota de rodapé.}
+    
+    \author[First]{Thalles Oliveira Campagnani}  \author[First]{Renato de Sousa Dâmaso}
+    
+    \address[First]{Depto. de Eng. Mecatrônica do CEFET-MG, Unidade de Divinópolis 
+    (thallescampagnani@gmail.com;  renatosd@cefetmg.br)}
+    
+    \selectlanguage{english}
+    \renewcommand{\abstractname}{{\bf Abstract:~}}
+    
+    \begin{abstract}                % Abstract of not more than 250 words.
+        This article describes the implementation of a software server, called OpenSever, in an industrial robotic system to facilitate the implementation of external control loops. The robotic system used is composed of an open controller, an external industrial computer and an industrial robotic manipulator. The open controller allows receiving movement commands from software compiled on the industrial computer, making use of the \textit{eORL} library. But this system is limited to the computational capacity of the industrial computer, its architecture \textit{x86}, its operating system based on \textit{Linux}, the programming language C/C++, which the library \textit{eORL} is compatible, and connection via cables. In order to overcome the aforementioned limitations, this software server was implemented in the industrial computer to enable the sending of movement commands by a software client on an external device. Such device can be of any architecture, operating system and programmed in any preferred language, as long as it has the ability to communicate with the server via the TCP/IP protocol through the network cable or wireless connection, and can do so use of simple open source operating system libraries. Once implemented, tests were carried out with some architectures, operating systems and programming languages. Some of the collected results are presented at the end.
+
+        \vskip 1mm% não altere esse espaçamento
+        \selectlanguage{brazil}
+        {\noindent \bf Resumo}:  O presente artigo descreve a implementação de um software servidor, chamado OpenSever, num sistema robótico industrial para facilitar a implementação de malhas de controle externas. O sistema robótico utilizado é composto por uma controladora aberta, um computador industrial externo e um manipulador robótico industrial. A controladora aberta permite o recebimento de comandos de movimentação vindos de softwares compilados no computador industrial fazendo uso da biblioteca \textit{eORL}. Mas este sistema é limitado à capacidade computacional do computador industrial, a sua arquitetura \textit{x86}, ao seu sistema operacional baseado em \textit{Linux}, à linguagem de programação C/C++, que a biblioteca \textit{eORL} é compatível, e à conexão via cabos. A fim de superar as limitações citadas, foi implementado esse software servidor no computador industrial para possibilitar o envio de comandos de movimentação por um software cliente em um dispositivo externo. Tal dispositivo pode ser de qualquer arquitetura, sistema operacional e programado em qualquer linguagem de preferência, desde que tenha a capacidade de se comunicar com o servidor pelo protocolo TCP/IP através do cabo de rede ou conexão sem fio. Além disso, podendo fazer uso de bibliotecas simples de código aberto do sistema operacional. Depois de implementado, foram feitos testes com algumas arquiteturas, sistemas operacionais e linguagens de programação. Ao final, são apresentados alguns dos resultados coletados.
+
+    \end{abstract}
+    
+    \selectlanguage{english}
+    \begin{keyword}%Five to ten keywords separatety by semicolon. 
+        C5G Open, Industrial Robotic Manipulator, Client server arrangement
+        \vskip 1mm% não altere esse espaçamento
+        \selectlanguage{brazil}
+        {\noindent\it Palavras-chaves:} C5G Open, Manipulador Robótico Industrial, Arranjo cliente servidor
+        \end{keyword}
+    
+    \selectlanguage{brazil}
+
+\end{frontmatter}

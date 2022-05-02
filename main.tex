@@ -1,0 +1,44 @@
+% ===================================SBAI==================================
+\documentclass[a4paper]{ifacconf}
+\usepackage{graphicx,amsmath,url}      % include this line if your document contains figures
+\usepackage[round]{natbib}             % required for bibliography
+\usepackage[spanish,brazil,english]{babel}
+\usepackage[T1]{fontenc}
+%\usepackage{inputenc}
+\usepackage[utf8]{inputenc}
+\usepackage{ae}
+\newtheorem{teorema}[thm]{{\em Teorema}}{ }
+\newtheorem{lema}[thm]{{\em Lema}}{ }
+\newtheorem{corolario}[thm]{{\em Corolário}}{ }
+\newenvironment{prova}{{\bf Prova.}}{ }
+
+% ===========================PACOTES==ADICIONAIS==AQUI======================
+%\usepackage[utf8]{inputenc}
+%\usepackage{float}
+%\usepackage{ae}
+%\usepackage{amsfonts, amssymb}
+%\usepackage{amsmath}
+%\usepackage{graphicx}
+%\usepackage{indentfirst}
+%\usepackage{ae}
+%\usepackage{gensymb}
+%\usepackage{caption} 
+\usepackage{epstopdf}
+%\usepackage{leading}
+%\makeatletter
+%\def\verbatim@font{\normalfont\ttfamily\footnotesize}
+%\makeatother
+%\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{float}
+
+\begin{document}
+    \input{1-titulo.tex}
+    \input{2-introducao.tex}
+    \input{3-openserver.tex}
+    \input{4-resultados.tex}
+    \input{5-conclusao.tex}
+    %\nocite{*}
+    \bibliography{6-referencias}
+
+\end{document}
