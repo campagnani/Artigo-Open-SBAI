@@ -1,4 +1,4 @@
-#Arranjo Cliente Servidor para um Robô Industrial com Controladora Aberta
+# Arranjo Cliente Servidor para um Robô Industrial com Controladora Aberta
 
 Artigo publicado na XV edição do Simpósio Brasileiro de Automação Inteligente (SBAI).
 
